@@ -7,14 +7,17 @@ export default function Navbar() {
             <h1 className="text-xl font-bold">Example Project</h1>
             <ul className="flex gap-6">
                 <li>
-                    <Link href="/">Home</Link>
+                    <Link className="HomeButton" href="/">Home</Link>
                 </li>
                 <li>
-                    <Link href="/about">About</Link>
+                    <Link className="AboutButton" href="/about">About</Link>
                 </li>
                 <li>
-                    <Link href="/contact">Contact</Link>
+                    <Link className="ExperienceButton" href="/experience">Experience</Link>
                 </li>
+                <li>
+                    <Link className="ContactButton" href="/contact">Contact</Link>
+                    </li>
             </ul>
         </nav>
     );
